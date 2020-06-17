@@ -2,7 +2,7 @@ body{
     background-color: black;
     color: white;
 }
-a{
+a:link{
     font-weight: bold;
     text-decoration: none;
 }
