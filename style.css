@@ -1,15 +1,31 @@
 body{
     background-color: rgb(50, 50, 50);
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 .nav{
+    text-align: center;
+    background-color: gray;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, .2);
+    margin: 5px;
+    overflow: hidden;
+}
+.nav a{
+    float: left;
+    display: block;
+    padding: 10px 14px;
+    color: white;
+    width: 20%;
+}
+.nav a:hover{
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, .2);
 }
 .header{
     text-align: center;
     background-color: gray;
-    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, .2);
+    box-shadow: 1px 6px 8px 0 rgba(0, 0, 0, .2);
     margin: auto;
-    width: 50%
+    width: 50%;
 }
 a:link{
     font-weight: bold;
