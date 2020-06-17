@@ -11,6 +11,6 @@ nav_home = document.getElementById("nav-home");
 window.onload = function(){
    let user_url = window.location.href;
     if(user_url == "https://deantony.github.io/recipes/index.html" || user_url == "https://deantony.github.io/recipes/"){
-        nav_home.cursor = "not-allowed"
+        nav_home.onmouseenter = function(){nav_home.cursor = "not-allowed"}
     }
 }
