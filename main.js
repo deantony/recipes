@@ -10,12 +10,12 @@ for(var i = 0; i < cards.length; i++){
 nav_home = document.getElementById("nav-home");
 window.onload = function(){
    let user_url = window.location.href;
-   function func_nav_home_enter(){
-       nav_home.style.cursor = "not-allowed";
-   }
+
     if(user_url == "https://deantony.github.io/recipes/index.html" || user_url == "https://deantony.github.io/recipes/"){
         nav_home.onmouseenter = function(){
-            nav_home.onmouseenter = func_nav_home_enter;
+            nav_home.onmouseenter = function(){
+                nav_home.style.cursor = "not-allowed"
+            }
         }
     }
 }
