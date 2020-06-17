@@ -1,11 +1,3 @@
-//Disable right click on cards
-let cards = document.getElementsByClassName("card");
-for(var i = 0; i < cards.length; i++){
-    var card = cards[i];
-    card.oncontextmenu = function(){
-        return false;
-    }
-}
 //read url and disable corresponding nav link
 nav_home = document.getElementById("nav-home");
 window.onload = function(){
@@ -14,8 +6,16 @@ window.onload = function(){
     if(user_url == "https://deantony.github.io/recipes/index.html" || user_url == "https://deantony.github.io/recipes/"){
         nav_home.onmouseenter = function(){
             nav_home.onmouseenter = function(){
-                nav_home.style.cursor = "not-allowed"
+                nav_home.style.cursor = "not-allowed";
             }
         }
+    }
+}
+//Disable right click on cards
+let cards = document.getElementsByClassName("card");
+for(var i = 0; i < cards.length; i++){
+    var card = cards[i];
+    card.oncontextmenu = function(){
+        return false;
     }
 }
