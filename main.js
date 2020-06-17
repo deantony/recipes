@@ -10,6 +10,7 @@ for(var i = 0; i < cards.length; i++){
 nav_home = document.getElementById("nav-home");
 window.onload = function(){
    let user_url = window.location.href;
+   alert(`Your URL is ${user_url}`)
     if(user_url == "https://deantony.github.io/recipes/index.html" || user_url == "https://deantony.github.io/recipes/"){
         nav_home.onmouseenter = function(){
             nav_home.cursor = "not-allowed"
