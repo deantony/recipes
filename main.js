@@ -4,14 +4,13 @@ window.onload = function(){
    let user_url = window.location.href;
 
     if(user_url == "https://deantony.github.io/recipes/index.html" || user_url == "https://deantony.github.io/recipes/"){
-        nav_home.style.backgroundColor = "darkgray";
+        nav_home.style.backgroundColor = "rgb(75, 75, 75)";
         nav_home.onclick = function(){
             return false; 
         }
         nav_home.onmouseenter = function(){
-            nav_home.onmouseenter = function(){
-                nav_home.style.cursor = "not-allowed";
-            }
+            nav_home.style.cursor = "not-allowed";
+        
         }
     }
 }
