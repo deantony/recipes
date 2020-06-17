@@ -1,6 +1,15 @@
 body{
-    background-color: black;
+    background-color: rgb(50, 50, 50);
     color: white;
+}
+.nav{
+}
+.header{
+    text-align: center;
+    background-color: gray;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, .2);
+    margin: auto;
+    width: 50%
 }
 a:link{
     font-weight: bold;
