@@ -4,7 +4,7 @@ window.onload = function(){
    let user_url = window.location.href;
 
     if(user_url == "https://deantony.github.io/recipes/index.html" || user_url == "https://deantony.github.io/recipes/"){
-        nav_home.style.backgroundColor = "rgb(75, 75, 75)";
+        nav_home.style.boxShadow = "none"
         nav_home.onclick = function(){
             return false; 
         }
