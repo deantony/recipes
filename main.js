@@ -10,7 +10,7 @@ window.onload = function(){
         }
         nav_home.onmouseenter = function(){
             nav_home.style.cursor = "not-allowed";
-            nav_home.style.padding = "6px 8px"
+            nav_home.style.padding = "10px 14px"
         }
     }
 }
